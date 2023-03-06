@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(82, 82, 82);
+}
+
+.wrapper{
+    background-color: bisque;
+    outline: 1px solid red;
+    max-width: 1010px;
+    margin: 60px auto;
+    /* overflow: hidden; */
+    padding: 25px;
+}
+
+.box{
+    width: 270px;
+    height: 270px;
+    border: 3px solid gray;
+    display: inline-block;
+    margin: 25px;
+    padding: 40px;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+
+.box2{
+    background-color: aqua;
+}
+
+.box3{
+    background-color: blue;
+}

@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wrapper{
+    max-width: 960px;
+    background-color: aliceblue;
+    margin: 60px auto;
+}
+
+.wrapper table{
+    width: 100%;
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+
+.wrapper table td,
+.wrapper table th{
+    padding: 10px;
+    border: 1px solid blueviolet;
+    transition: 0.4s;
+    height: 150px;
+}
+
+.wrapper table td:hover,
+.wrapper table th:hover{
+    background-color: rgb(43, 32, 25);
+    color: antiquewhite;
+}
+
+.wrapper table tr:nth-child(2n){
+    background-color: gray;
+}
+
+.wrapper table tr:nth-child(2n+1){
+    background-color: rgb(104, 101, 101);
+}
